@@ -1,0 +1,10 @@
+---
+# Yaml config file for wordpress.aws.naecl.com server specific settings
+
+wordpress::config::backup_bucket: 'put.name.of.aws.s3.bucket.here'
+
+wordpress::config::sites:
+  site1:
+    sitename: 'wordpress.aws.naecl.com'
+    dbname:   'wordpress_db'
+
