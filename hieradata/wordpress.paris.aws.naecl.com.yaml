@@ -7,6 +7,8 @@ wordpress::config::backup_bucket: 'put.name.of.aws.s3.bucket.here'
 
 wordpress::config::sites:
   site1:
-    sitename: 'demo.paris.aws.naecl.com'
-    dbname:   'demo_paris'
+    sitename:    'demo.paris.aws.naecl.com'
+    dbname:      'demo_paris'
+    sslcert:     'true'
+    backup_site: 'false'
 
