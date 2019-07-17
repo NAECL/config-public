@@ -7,7 +7,7 @@ wordpress::config::backup_bucket: 'put.name.of.aws.s3.bucket.here'
 
 wordpress::config::sites:
   site1:
-    sitename:    'wordpress.paris.aws.naecl.com'
+    sitename:    'marks.paris.aws.naecl.com'
     dbname:      'wpress_paris'
     sslcert:     'true'
     backup_site: 'false'
