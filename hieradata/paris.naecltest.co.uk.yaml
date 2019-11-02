@@ -4,5 +4,5 @@
 nrpe::params::allowed_hosts:
              - '82.24.90.56'
 
-base::domain:       'paris.aws.naecl.com'
+base::domain:       'paris.naecltest.co.uk'
 
