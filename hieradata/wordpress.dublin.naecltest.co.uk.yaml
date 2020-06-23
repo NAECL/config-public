@@ -3,7 +3,7 @@
 
 php7::minor_version: '4'
 
-wordpress::wordpress_version: '4.9.1'
+wordpress::wordpress_version: '5.4.2'
 
 wordpress::config::backup_bucket: 'put.name.of.aws.s3.bucket.here'
 
