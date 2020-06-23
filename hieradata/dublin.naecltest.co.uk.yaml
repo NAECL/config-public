@@ -1,0 +1,8 @@
+---
+# Yaml config file for paris region specific settings
+
+nrpe::params::allowed_hosts:
+             - '82.24.90.56'
+
+base::domain:       'dublin.naecltest.co.uk'
+

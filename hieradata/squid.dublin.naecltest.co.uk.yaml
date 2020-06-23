@@ -1,0 +1,5 @@
+---
+# Yaml config file for squid specific settings
+
+squid::config::localnet: '82.24.90.56/32'
+
